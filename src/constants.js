@@ -1,0 +1,1 @@
+export const WEB_HOOK_URL = "https://webhook.connexease.com/custom";
