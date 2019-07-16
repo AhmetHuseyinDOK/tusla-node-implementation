@@ -1,0 +1,33 @@
+{
+  "name": "tusla",
+  "version": "0.0.1",
+  "description": "Tusla API implementatiton for nodejs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start":"node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmetHuseyinDOK/tusla-node-implementation.git"
+  },
+  "keywords": [
+    "Tusla",
+    "node",
+    "es6",
+    "axios"
+  ],
+  "author": "Ahmet Hüseyin DOK <ahmet.dok@intern.generalmobile.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmetHuseyinDOK/tusla-node-implementation/issues"
+  },
+  "homepage": "https://github.com/AhmetHuseyinDOK/tusla-node-implementation#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "jest-esm-transformer": "^1.0.0"
+  }
+}
