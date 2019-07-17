@@ -1,4 +1,4 @@
-class Event{
+export default  class Event{
     constructor({
         hook = null,
         user = null,

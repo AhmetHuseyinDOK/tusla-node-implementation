@@ -1,6 +1,6 @@
-class Template{
-    constructor({template = null,channel =null}){
+export default class Template{
+    constructor({channel =null,events = []}){
         this.channel = channel;
-        this.template = template;
+        this.events = events;
     }
 }

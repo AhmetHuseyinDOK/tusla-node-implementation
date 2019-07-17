@@ -1,4 +1,4 @@
-class Credentials{
+export default class Credentials{
     constructor({
         secretKey = null,
         UUID = null

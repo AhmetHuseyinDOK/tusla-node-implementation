@@ -1,15 +1,24 @@
-class Message{
+export default class Message{
+
     constructor({
-        id = null,
-        type = null,
-        content = null,
-        timestamp = null,
-        url = null
+        id=null,
+        type=null,
+        content=null,
+        timestamp=null
     }){
         this.id = id;
         this.type = type;
-        this.content = content;
+        this.content= content;
         this.timestamp = timestamp;
-        this.url = url;
     }
+
+    static textMessage({id=null,content=null}){
+        return new Message({
+            id:id,
+            content:content,
+            type:"text",
+            timestamp: new Date()
+        });
+    }
+    
 }
