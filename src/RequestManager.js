@@ -1,4 +1,4 @@
-import {Request,Template,Event} from '../index';
+import {Request,Template,Event} from '../main';
 import {WEB_HOOK_MESSAGE_CREATED} from '../src/constants';
 import { User, Message, Channel } from '../main';
 import Credentials from './Credentials';

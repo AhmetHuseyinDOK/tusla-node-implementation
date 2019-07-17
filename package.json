@@ -1,5 +1,5 @@
 {
-  "name": "tusla",
+  "name": "tusla-customer-service",
   "version": "0.0.1",
   "description": "Tusla API implementatiton for nodejs ",
   "main": "index.js",
