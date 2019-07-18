@@ -1,6 +1,6 @@
 {
   "name": "tusla-customer-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tusla API implementatiton for nodejs ",
   "main": "index.js",
   "scripts": {
