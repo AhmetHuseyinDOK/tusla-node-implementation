@@ -5,11 +5,32 @@ import Credentials from './Credentials';
 
 export default  class RequestManager{
     
+    /**
+     * 
+     * @param {string} secretKey 
+     * @param {string} uuid 
+     */
     constructor(secretKey,uuid){
         this.credentials = new Credentials({secretKey:secretKey,UUID:uuid});
         this.channel =  new Channel({uuid:uuid});
     }
 
+    /**
+     * 
+     * creates a request a create a new message to TuslaAPI
+     * @param {Object} Data Data of the request
+     * @param {Object} Data.User User Info
+     * @param {string} Data.User.userId id of the user
+     * @param {string} Data.User.name name of the user
+     * @param {string} Data.User.email email of the user
+     * @param {string} Data.User.phone_number phone number of the user
+     * @param {string} Data.User.picture picture of the user
+     * @param {Object} Data.Message Message Info
+     * @param {string} Data.Message.messageId id of the user
+     * @param {string} Data.Message.content content of the user
+     * @returns {Object} request
+     *   
+     */
     createTextMessageRequest({
         User:{
             userId=null,

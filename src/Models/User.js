@@ -1,4 +1,13 @@
 export default class User{
+    /**
+     * 
+     * @param {Object} data
+     * @param {string} data.id
+     * @param {string} data.name
+     * @param {string} data.email
+     * @param {string} data.phone_number
+     * @param {string} data.picture 
+     */
     constructor({
         id = null,
         name = null,

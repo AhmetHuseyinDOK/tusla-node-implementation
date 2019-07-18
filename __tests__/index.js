@@ -59,8 +59,8 @@ test('message create request with template class',async () =>{
 });
 
 test('text message create request with RequestManager',async () => {
+    
     let manager =  await new RequestManager(secretKey,uuid);
-
     let request =  manager.createTextMessageRequest({
         User:{
             name:"IT TEST",
