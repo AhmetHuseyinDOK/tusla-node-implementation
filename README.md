@@ -1,5 +1,11 @@
 # Tusla Customer Service
 
+install with npm
+
+```
+npm install tusla-customer-service
+```
+
 Send a text message using RequestManager
 
 ```
